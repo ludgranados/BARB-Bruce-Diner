@@ -24,6 +24,44 @@ ul {
     margin-left: 1%;
   }
 
+  .nav {
+    float: inline-start;
+    height: 40px;
+    text-align:center;
+    font-size: 90px;
+    padding: 5px;
+    mix-blend-mode: normal;
+    border-style: outset;
+  
+  }
+
+  .nav li {
+    display: inline-block;
+    list-style: none;
+    height: 50px;
+    line-height: 40px;
+    padding: 0 40px;
+  }
+
+  .nav li:hover {
+    display:inline-block;
+    list-style: none;
+    height:30px;
+    line-height: 20px;
+    padding:0 40px;
+    transition: background .2s;
+  }
+
+  .nav-link {
+    color: rgba(254, 191, 0, 0.853);
+    text-shadow: -3px 3px black;
+    text-decoration: none;
+  }
+
+  .nav li a:hover {
+    color: white;
+  }
+
 
 
 /*Banner*/
