@@ -1,3 +1,5 @@
+//Form
+
 function validateEmailForm(){
     var fname = document.getElementById('fname');
     var lname = document.getElementById('lname');
@@ -30,3 +32,4 @@ function validateEmailForm(){
     }
     return true;
 }
+

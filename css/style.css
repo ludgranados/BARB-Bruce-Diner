@@ -3,7 +3,30 @@ body, html {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
   }
-  
+
+
+
+/* Jumbotron/ Navbar */
+li {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 30px;
+  color: #ddd;
+  cursor: pointer;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .logo {
+    margin-left: 1%;
+  }
+
+
+
+/*Banner*/
   .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.ibb.co/p3GjRKQ/spencer-davis-j-Z2lh-Ahy2-ZI-unsplash.jpg");
     height: 50%;
@@ -45,12 +68,9 @@ h1, h2, p {
     font-family: ;
 }
 
-.logo {
-
-}
 
 
-
+/*Form*/
 form {
   margin-left: 40%;
   margin-right: 40%;
@@ -64,6 +84,8 @@ label {
 }
 
 
+
+/*Footer*/
 footer {
 
 }
