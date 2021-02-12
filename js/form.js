@@ -1,6 +1,7 @@
 //Form
 
-function validateEmailForm(){
+function validateEmailForm(event){
+    event.preventDefault();
     var fname = document.getElementById('fname');
     var lname = document.getElementById('lname');
     var email = document.getElementById('email');
